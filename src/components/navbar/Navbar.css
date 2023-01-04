@@ -29,6 +29,12 @@ nav {
   background: var(--color-primary);
 }
 
+.nav-menus {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-menus ul {
   display: flex;
   gap: 2rem;
@@ -41,4 +47,65 @@ nav {
 .nav-menus li:hover {
   color: var(--color-primary);
   transition: var(--transition);
+}
+
+.nav-navigation {
+  display: none;
+  color: var(--color-white);
+}
+
+
+
+.nav-visible {
+  visibility: visible;
+}
+
+.nav-invisible {
+  visibility: hidden;
+}
+
+/* ===========MEDIA QUERIES======== */
+@media screen and (max-width:990px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  .nav-logo {
+    gap: .5rem;
+  }
+
+  .nav-menus ul {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .nav-navigation {
+    display: contents;
+  }
+
+  .nav-menus ul {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    gap: 0;
+    perspective: 400;
+  }
+
+  .nav-menus li {
+    background: var(--color-bg);
+    width: 15rem;
+    height: 5.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-hide {
+    display: none;
+  }
+
+  .nav-show {
+    display: flex;
+  }
 }

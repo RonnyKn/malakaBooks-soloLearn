@@ -1,7 +1,11 @@
 import "./Navbar.css"
-import React from "react"
+import React, { useState } from "react"
+import { GoThreeBars } from "react-icons/go"
+import { MdOutlineClose } from "react-icons/md"
 
 const Navbar = () => {
+  const [isNavShowing, setIsNavShowing] = useState(false)
+
   return (
     <nav>
       <div className="container nav-container">
@@ -9,17 +13,27 @@ const Navbar = () => {
           <span>M</span>
           <h3>Malaka Books</h3>
         </div>
-        <div className="nav-menus">
+        <div className={`nav-menus ${isNavShowing ? "nav-show" : "nav-hide"}`}>
           <ul>
             <li>For Everyone</li>
             <li>Benefit</li>
             <li>Preview</li>
             <li>About</li>
+            <button type="button" className="btn">
+              Download
+            </button>
           </ul>
         </div>
         <div className="nav-download">
-          <button type="button" className="btn">
-            Download
+          <button
+            className="nav-navigation btn"
+            onClick={() => setIsNavShowing(!isNavShowing)}
+          >
+            {isNavShowing ? (
+              <MdOutlineClose size="2em" />
+            ) : (
+              <GoThreeBars size="2em" />
+            )}
           </button>
         </div>
       </div>
