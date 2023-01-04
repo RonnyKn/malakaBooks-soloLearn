@@ -40,6 +40,10 @@ body {
   line-height: 1.7;
 }
 
+section {
+  margin: 5rem 0;
+}
+
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
@@ -49,4 +53,10 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+.btn {
+  padding: .5rem .8rem;
+  border-radius: 1rem;
+  cursor: pointer;
 }

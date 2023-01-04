@@ -2,7 +2,7 @@ import "./ForEveryone.css"
 import React from "react"
 
 const ForEveryone = () => {
-  return <div>ForEveryone</div>
+  return <section>ForEveryone</section>
 }
 
 export default ForEveryone
