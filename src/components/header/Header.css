@@ -1,0 +1,64 @@
+.header {
+  background: var(--header-bg);
+  color: var(--color-white);
+  padding: 3rem 0 0;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  /* place-items: center; */
+}
+
+.header-left h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.header-left p {
+  color: var(--text-gray);
+}
+
+.header-buynow {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.header-buynow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.header-sold {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-soldout p {
+  color: var(--text-gray);
+  font-size: .9rem;
+}
+
+.header-techs {
+  color: var(--text-gray);
+  font-size: .9rem;
+}
+
+.header-svg {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  place-items: center;
+  gap: 1rem;
+}
+
+/* ============MEDIA QUERIES========== */
+@media screen and (max-width:990px) {}

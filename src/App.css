@@ -60,3 +60,16 @@ img {
   border-radius: 1rem;
   cursor: pointer;
 }
+
+/* =========MEDIA QUERIES======= */
+@media screen and (max-width:990px) {
+  .container {
+    width: var(--container-width-md);
+  }
+}
+
+@media screen and (max-width:600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+}
