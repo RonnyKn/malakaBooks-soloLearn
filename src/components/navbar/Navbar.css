@@ -50,18 +50,9 @@ nav {
 }
 
 .nav-navigation {
+  position: relative;
   display: none;
   color: var(--color-white);
-}
-
-
-
-.nav-visible {
-  visibility: visible;
-}
-
-.nav-invisible {
-  visibility: hidden;
 }
 
 /* ===========MEDIA QUERIES======== */
@@ -80,11 +71,16 @@ nav {
 }
 
 @media screen and (max-width:768px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
   .nav-navigation {
     display: contents;
   }
 
   .nav-menus ul {
+    padding: .5rem;
     flex-direction: column;
     position: absolute;
     top: 100%;
@@ -95,7 +91,7 @@ nav {
   .nav-menus li {
     background: var(--color-bg);
     width: 15rem;
-    height: 5.8rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,5 +103,14 @@ nav {
 
   .nav-show {
     display: flex;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .nav-menus {
+    flex-direction: column;
+    position: absolute;
+    top: 90%;
+    left: 40%;
   }
 }

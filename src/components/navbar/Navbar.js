@@ -19,9 +19,11 @@ const Navbar = () => {
             <li>Benefit</li>
             <li>Preview</li>
             <li>About</li>
-            <button type="button" className="btn">
-              Download
-            </button>
+            <li>
+              <button type="button" className="btn">
+                Download
+              </button>
+            </li>
           </ul>
         </div>
         <div className="nav-download">
