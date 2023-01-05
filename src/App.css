@@ -25,7 +25,7 @@ body {
   --color-success: #20D27D;
   --color-danger: #F52E52;
   --header-bg: linear-gradient(180deg, var(--color-bg) 0%, var(--color-dark) 85.25%);
-
+  --text-gray: rgba(255, 255, 255, .5);
   --box-shadow: 0px 30px 60px rgba(29, 43, 63, 0.2);
   --filter-drop-shadow: drop-shadow(0px 80px 100px rgba(29, 43, 63, 0.4));
 

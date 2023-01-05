@@ -1,0 +1,61 @@
+.for__everyone {
+  background: var(--header-bg);
+  color: var(--color-white);
+  padding: 3rem 0;
+}
+
+.for__everyone-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  /* place-items: center; */
+}
+
+.for__everyone-left h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.for__everyone-left p {
+  color: var(--text-gray);
+}
+
+.for__everyone-buynow {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.for__everyone-buynow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.for__everyone-sold {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.for__everyone-soldout p {
+  color: var(--text-gray);
+  font-size: .9rem;
+}
+
+.for__everyone-techs {
+  color: var(--text-gray);
+  font-size: .9rem;
+}
+
+.for__everyone-svg {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  place-items: center;
+  gap: 1rem;
+}
