@@ -7,6 +7,7 @@ import About from "./pages/about/About"
 import Benefits from "./pages/benefits/Benefits"
 import ForEveryone from "./pages/forEveryone/ForEveryone"
 import Preview from "./pages/preview/Preview"
+import { benefit, book_contain } from "./assets/data/Data"
 
 function App() {
   return (
@@ -15,7 +16,10 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<ForEveryone />} />
-        <Route path="/benefits" element={<Benefits />} />
+        <Route
+          path="/benefits"
+          element={<Benefits benefit={benefit} book_contain={book_contain} />}
+        />
         <Route path="/about" element={<About />} />
         <Route path="/preview" element={<Preview />} />
       </Routes>

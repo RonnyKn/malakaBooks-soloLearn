@@ -1,0 +1,67 @@
+.benefits-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.benefits-left-title {
+  margin: .5rem 0 1rem;
+}
+
+.benefits-left-points {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.benefits-left-point {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.benefits-right {
+  position: relative;
+}
+
+.book-contains {
+  position: absolute;
+  width: 100%;
+  top: 80%;
+  background: var(--color-primary);
+  color: var(--color-white);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  filter: var(--filter-drop-shadow);
+}
+
+.book-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Others-points {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.Others-point {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Others-point div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
