@@ -8,6 +8,7 @@ nav {
   align-items: center;
   background: var(--color-bg);
   color: var(--color-white);
+  z-index: 99;
 }
 
 .nav-container {
