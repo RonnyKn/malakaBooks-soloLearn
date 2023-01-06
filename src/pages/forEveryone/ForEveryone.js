@@ -1,11 +1,12 @@
 import "./ForEveryone.css"
 import React from "react"
 import forImg1 from "../../assets/for1.png"
+import Introductions from "../../components/Introductions/Introductions"
 
 const ForEveryone = () => {
   return (
-    <section className="for__everyone container">
-      <div className="for__everyone-container">
+    <section className="for__everyone ">
+      <div className="container for__everyone-container">
         <div className="for__everyone-left">
           <p className="sub-title">---BUKU INI UNTUK SIAPA</p>
           <h3>
@@ -27,7 +28,7 @@ const ForEveryone = () => {
         <img src={forImg1} alt="forImg1" />
       </div>
 
-      <div className="for__everyone-framework">
+      <div className="container for__everyone-framework">
         <div className="for__everyone-desc">
           <h5>Utility-First Framework</h5>
           <p>
@@ -50,6 +51,8 @@ const ForEveryone = () => {
           </p>
         </div>
       </div>
+
+      <Introductions />
     </section>
   )
 }
