@@ -1,0 +1,33 @@
+.for__everyone {
+  padding: 5rem 0 0;
+}
+
+.for__everyone-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.sub-title {
+  color: var(--color-primary);
+  font-weight: 500;
+  font-size: .7rem;
+}
+
+.for__everyone-img {
+  margin: 0 auto 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.for__everyone-img img {
+  width: 20rem;
+}
+
+.for__everyone-framework {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
