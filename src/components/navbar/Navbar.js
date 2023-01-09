@@ -2,9 +2,14 @@ import "./Navbar.css"
 import React, { useState } from "react"
 import { GoThreeBars } from "react-icons/go"
 import { MdOutlineClose } from "react-icons/md"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false)
+
+  const scrollTop = () => {
+    window.scroll(0, 0)
+  }
 
   return (
     <nav>
@@ -15,10 +20,18 @@ const Navbar = () => {
         </div>
         <div className={`nav-menus ${isNavShowing ? "nav-show" : "nav-hide"}`}>
           <ul>
-            <li>For Everyone</li>
-            <li>Benefit</li>
-            <li>Preview</li>
-            <li>About</li>
+            <Link to="/" onClick={scrollTop}>
+              <li> For Everyone </li>
+            </Link>
+            <Link to="/benefits" onClick={scrollTop}>
+              <li>Benefit</li>
+            </Link>
+            <Link to="/preview" onClick={scrollTop}>
+              <li>Preview</li>
+            </Link>
+            <Link to="/aboout" onClick={scrollTop}>
+              <li>About</li>
+            </Link>
             <li>
               <button type="button" className="btn">
                 Download

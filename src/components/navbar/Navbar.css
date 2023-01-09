@@ -43,6 +43,7 @@ nav {
 
 .nav-menus li {
   cursor: pointer;
+  color: var(--color-white);
 }
 
 .nav-menus li:hover {
