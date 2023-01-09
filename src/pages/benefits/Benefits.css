@@ -51,17 +51,28 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: var(--color-white);
 }
 
 .Others-point {
   display: flex;
-
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  gap: 1rem;
+  background: var(--color-primary);
+  padding: .5rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
 }
 
 .Others-point div {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
 }
+
+/* .point-subtitle {
+  color: var(--color-primary);
+} */

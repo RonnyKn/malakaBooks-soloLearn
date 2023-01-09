@@ -14,25 +14,25 @@ const BenefitOthers = ({ benefitimg2, title2, subtitle2 }) => {
         <p>{subtitle2}</p>
         <div className="Others-points">
           <div className="Others-point">
-            <BsCodeSlash />
+            <BsCodeSlash size="1.7em" />
             <div>
-              <p>Live Demo Project</p>
+              <h5 className="point-subtitle">Live Demo Project</h5>
               <p>
                 Lihat live demo project yang akan kamu buat di akhir buku ini.
               </p>
             </div>
-            <BsFillArrowRightCircleFill />
+            <BsFillArrowRightCircleFill size="1.7em" />
           </div>
           <div className="Others-point">
-            <AiOutlineMessage />
+            <AiOutlineMessage size="2em" />
             <div>
-              <p>Dukungan Komunitas</p>
+              <h5 className="point-subtitle">Dukungan Komunitas</h5>
               <p>
                 Sebuah server Discord berisi teman-teman yang akan membantu
                 kamu.
               </p>
             </div>
-            <BsFillArrowRightCircleFill />
+            <BsFillArrowRightCircleFill size="2em" />
           </div>
         </div>
       </div>
