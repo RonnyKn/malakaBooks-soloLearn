@@ -7,8 +7,7 @@ import About from "./pages/about/About"
 import Benefits from "./pages/benefits/Benefits"
 import ForEveryone from "./pages/forEveryone/ForEveryone"
 import Preview from "./pages/preview/Preview"
-import { benefit, book_contain, pratinjau } from "./assets/data/Data"
-
+import { benefit, book_contain, pratinjau, pricelist } from "./assets/data/Data"
 function App() {
   return (
     <BrowserRouter>
@@ -21,7 +20,10 @@ function App() {
           element={<Benefits benefit={benefit} book_contain={book_contain} />}
         />
         <Route path="/about" element={<About />} />
-        <Route path="/preview" element={<Preview pratinjau={pratinjau} />} />
+        <Route
+          path="/preview"
+          element={<Preview pratinjau={pratinjau} pricelist={pricelist} />}
+        />
       </Routes>
       <Footer />
     </BrowserRouter>

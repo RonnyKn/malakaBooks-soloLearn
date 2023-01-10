@@ -21,4 +21,68 @@
 /* ==========pricelist========= */
 .pricelist {
   background: var(--color-bg);
+  color: var(--color-white);
+  padding: 1rem 0 3rem;
+}
+
+.pricelist-title {
+  text-align: center;
+  margin: 1rem 0 0;
+}
+
+.pricelist-subtitle {
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.pricelist-prices {
+  color: var(--color-dark);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.prices {
+  padding: 3rem;
+  background: var(--color-white);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.book-contain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.prices-book__type {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.book-contain p {
+  width: 100%;
+  text-align: left;
+  font-weight: 500;
+}
+
+.pricelist-btn {
+  margin: 1rem 0 0;
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.pricelist-attention {
+  padding: 1rem;
+  margin: 1rem auto 0;
+  width: fit-content;
+  text-align: center;
+  border: 1px solid var(--color-white);
+  border-radius: .5rem;
 }

@@ -4,7 +4,7 @@ import "@splidejs/react-splide/css"
 import { Splide, SplideSlide } from "@splidejs/react-splide"
 import Pricelist from "../../components/pricelist/Pricelist"
 
-const Preview = ({ pratinjau: { title, subtitle, img } }) => {
+const Preview = ({ pratinjau: { title, subtitle, img }, pricelist }) => {
   return (
     <section className="preview">
       <div className="container preview-container">
@@ -38,7 +38,7 @@ const Preview = ({ pratinjau: { title, subtitle, img } }) => {
           ))}
         </Splide>
       </div>
-      <Pricelist />
+      <Pricelist pricelist={pricelist} />
     </section>
   )
 }
