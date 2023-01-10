@@ -2,6 +2,7 @@ import "./Preview.css"
 import React from "react"
 import "@splidejs/react-splide/css"
 import { Splide, SplideSlide } from "@splidejs/react-splide"
+import Pricelist from "../../components/pricelist/Pricelist"
 
 const Preview = ({ pratinjau: { title, subtitle, img } }) => {
   return (

@@ -76,4 +76,49 @@ const pratinjau = {
   ],
 }
 
-export { techsImg, benefit, book_contain, pratinjau }
+const pricelist = {
+  title:
+    "Kamu dapat membeli buku fisik atau buku elektronik untuk dibaca di perangkat kamu",
+  subtitle:
+    "Dilarang memperjualbelikan atau memperbanyak tanpa seizin penulis. Hak cipta dilindungi undang-undang.",
+  prices: [
+    {
+      book_type: "Buku Digital",
+      book_price: "Rp100.000",
+      book_contain: [
+        { benefit: "Buku lengkap", validity: true },
+        { benefit: "Akses secara digital", validity: true },
+        { benefit: "Buku fisik", validity: false },
+        { benefit: "Mendapat pembaruan", validity: true },
+        { benefit: "Konsultasi", validity: true },
+        { benefit: "Dapat diunduh", validity: true },
+      ],
+    },
+    {
+      book_type: "Buku Fisik",
+      book_price: "Rp185.000",
+      book_contain: [
+        { benefit: "Buku lengkap", validity: true },
+        { benefit: "Akses secara digital", validity: false },
+        { benefit: "Buku fisik", validity: true },
+        { benefit: "Mendapat pembaruan", validity: false },
+        { benefit: "Konsultasi", validity: true },
+        { benefit: "Dapat diunduh", validity: true },
+      ],
+    },
+    {
+      book_type: "Buku Digital + FIsik",
+      book_price: "Rp250.000",
+      book_contain: [
+        { benefit: "Buku lengkap", validity: true },
+        { benefit: "Akses secara digital", validity: true },
+        { benefit: "Buku fisik", validity: true },
+        { benefit: "Mendapat pembaruan", validity: true },
+        { benefit: "Konsultasi", validity: true },
+        { benefit: "Dapat diunduh", validity: true },
+      ],
+    },
+  ],
+}
+
+export { techsImg, benefit, book_contain, pratinjau, pricelist }
