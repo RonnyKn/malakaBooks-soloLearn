@@ -1,5 +1,36 @@
+.about {
+  padding: 3rem 0;
+}
+
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
+}
+
+/* ========about left========= */
+.about-left {
+  position: relative;
+  width: 100%;
+}
+
+.about-title {
+  margin-bottom: 1rem;
+}
+
+.about-subtitle {
+  text-align: justify;
+}
+
+.writer-bio {
+  position: absolute;
+  bottom: 6rem;
+  left: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-primary);
+  padding: 1rem;
+  border-radius: .5rem;
+
 }
