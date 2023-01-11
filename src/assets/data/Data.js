@@ -16,6 +16,8 @@ import preview5 from "../../assets/preview/image 11preview-isi.png"
 import preview6 from "../../assets/preview/image 12preview-isi.png"
 import preview7 from "../../assets/preview/image 13preview-isi.png"
 
+import writerImg from "../../assets/about-1.png"
+
 const techsImg = [
   techsHtml,
   techsCss,
@@ -96,14 +98,14 @@ const pricelist = {
     },
     {
       book_type: "Buku Fisik",
-      book_price: "Rp185.000",
+      book_price: "Rp150.000",
       book_contain: [
         { benefit: "Buku lengkap", validity: true },
         { benefit: "Akses secara digital", validity: false },
         { benefit: "Buku fisik", validity: true },
         { benefit: "Mendapat pembaruan", validity: false },
         { benefit: "Konsultasi", validity: true },
-        { benefit: "Dapat diunduh", validity: true },
+        { benefit: "Dapat diunduh", validity: false },
       ],
     },
     {
@@ -120,5 +122,12 @@ const pricelist = {
     },
   ],
 }
+// =======about section=======
+const aboutWriter = {
+  img: writerImg,
+  title: "Tak kenal maka tak kenal. Berkenalan dengan penulis buku ini",
+  subtitle:
+    "“Halo, saya Nauval. Mungkin nama ini terdengar asing di telinga kamu. Namun, kedepannya saya berharap nama ini tidak lagi terdengar asing di telinga kamu sebagai orang yang rajin berbagi hal-hal baik untuk masyarakat, khususnya dalam ilmu komputer. Saya seorang web developer yang masuk kategori apa-aja-dikerjain-selagi-ada-manfaat-nya. Meski begitu, saya lebih senang fokus di front-end development, karena --menurut saya-- ini lebih sederhana saja. Di front-end development pada dasarnya hanya perlu menguasai tiga bahasa: HTML, CSS, dan JavaScript. Sudah jelas ini sederhana, yang bikin ribet itu kamu sendiri, sudah tau kamu cocoknya pake jQuery, malah maksa pake React.”",
+}
 
-export { techsImg, benefit, book_contain, pratinjau, pricelist }
+export { techsImg, benefit, book_contain, pratinjau, pricelist, aboutWriter }
