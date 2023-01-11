@@ -53,7 +53,7 @@
   align-items: left;
 }
 
-.book-contain {
+.prices-bookcontain {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -67,7 +67,7 @@
   font-weight: 500;
 }
 
-.book-contain p {
+.prices-bookcontain p {
   width: 100%;
   text-align: left;
   font-weight: 500;

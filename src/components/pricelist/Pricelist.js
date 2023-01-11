@@ -14,7 +14,7 @@ const Pricelist = ({ pricelist: { title, subtitle, prices } }) => {
               <p className="prices-book__type">{val?.book_type}</p>
               <h3>{val?.book_price}</h3>
               {val?.book_contain.map((item, idx) => (
-                <div className="book-contain" key={idx}>
+                <div className="prices-bookcontain" key={idx}>
                   {item?.validity ? (
                     <MdCheckCircle color="green" size="2em" />
                   ) : (
