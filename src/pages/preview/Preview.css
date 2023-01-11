@@ -20,7 +20,7 @@
 
 /* ==========pricelist========= */
 .pricelist {
-  background: var(--color-bg);
+  background: var(--color-primary);
   color: var(--color-white);
   padding: 1rem 0 3rem;
 }
@@ -33,7 +33,6 @@
 .pricelist-subtitle {
   text-align: center;
   margin: 0 0 1rem;
-  color: var(--text-gray);
 }
 
 .pricelist-prices {
