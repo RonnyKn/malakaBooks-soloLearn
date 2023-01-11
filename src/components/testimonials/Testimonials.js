@@ -5,10 +5,12 @@ const Testimonials = ({ testi: { title, subtitle, datas_testi } }) => {
   return (
     <div className="testimonials">
       <div className="testimonials-title">
-        <p className="sub-title">---TESTIMONIAL</p>
-        <h3>{title}</h3>
+        <div>
+          <p className="sub-title">---TESTIMONIAL</p>
+          <h3>{title}</h3>
+        </div>
+        <p className="testimonials-subtitle">{subtitle}</p>
       </div>
-      <p>{subtitle}</p>
       <Splide
         options={{
           type: "loop",

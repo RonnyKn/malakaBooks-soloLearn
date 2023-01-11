@@ -146,7 +146,7 @@ const testi_data = {
     },
     {
       message:
-        "“Terimakasih atas bukunya mas. Sangat membantu saya yang masih pemula dalam proses memahami taildwindcss. Isinya cukup lengkap dan detail.”",
+        "“Terimakasih atas bukunya mas. Sangat membantu saya yang masih pemula dalam proses memahami dan mempelajari taildwindcss. Isinya cukup lengkap dan detail.”",
       img: writerImgRound,
       name: "Dedik Sugiharto",
       status: "Front-end Engineer",
