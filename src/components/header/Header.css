@@ -21,33 +21,6 @@
   color: var(--text-gray);
 }
 
-.header-buynow {
-  display: flex;
-  gap: 1rem;
-  margin: 2rem 0;
-}
-
-.header-buynow-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: .5rem;
-  background: var(--color-primary);
-  color: var(--color-white);
-}
-
-.header-sold {
-  display: flex;
-  gap: .5rem;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-soldout p {
-  color: var(--text-gray);
-  font-size: .9rem;
-}
-
 .header-techs {
   color: var(--text-gray);
   font-size: .9rem;

@@ -131,7 +131,11 @@ const aboutWriter = {
     "“Halo, saya Nauval. Mungkin nama ini terdengar asing di telinga kamu. Namun, kedepannya saya berharap nama ini tidak lagi terdengar asing di telinga kamu sebagai orang yang rajin berbagi hal-hal baik untuk masyarakat, khususnya dalam ilmu komputer. Saya seorang web developer yang masuk kategori apa-aja-dikerjain-selagi-ada-manfaat-nya. Meski begitu, saya lebih senang fokus di front-end development, karena --menurut saya-- ini lebih sederhana saja. Di front-end development pada dasarnya hanya perlu menguasai tiga bahasa: HTML, CSS, dan JavaScript. Sudah jelas ini sederhana, yang bikin ribet itu kamu sendiri, sudah tau kamu cocoknya pake jQuery, malah maksa pake React.”",
   name: "Muhamad Nauval Azhar",
   social: "@mhdnauvalazhar",
+  buynow_title: "Anda ingin segera memesan buku ini?",
+  buynow_subtitle:
+    "Otak Kita butuh asupan nutrisi juga, tidak hanya perut saja.",
 }
+
 const testi_data = {
   title: "Apa kata orang-orang yang membaca buku ini?",
   subtitle:

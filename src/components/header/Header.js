@@ -3,6 +3,7 @@ import React from "react"
 import { BsArrowRightCircle, BsDownload } from "react-icons/bs"
 import { techsImg } from "../../assets/data/Data"
 import bookCover from "../../assets/book.png"
+import Buynow from "../buynow/Buynow"
 
 const Header = () => {
   return (
@@ -18,18 +19,7 @@ const Header = () => {
             diakhiri dengan membangun sebuah website yang responsive dengan
             Tailwind CSS.
           </p>
-          <div className="header-buynow">
-            <button type="button" className="header-buynow-btn btn">
-              <strong> Beli Sekarang</strong> <BsArrowRightCircle />
-            </button>
-            <div className="header-sold">
-              <BsDownload />
-              <div className="header-soldout">
-                <p>SUDAH TERJUAL</p>
-                <h5>501,234+</h5>
-              </div>
-            </div>
-          </div>
+          <Buynow />
           <span className="header-techs">TEKNOLOGI YANG DIGUNAKAN</span>
           <div className="header-svg">
             {techsImg?.map((tech, idx) => (

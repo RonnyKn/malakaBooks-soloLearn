@@ -1,0 +1,26 @@
+.buynow {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.buynow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.sold {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.soldout p {
+  color: var(--text-dark);
+  font-size: .9rem;
+}
