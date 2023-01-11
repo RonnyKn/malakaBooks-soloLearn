@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link to="/preview" onClick={scrollTop}>
               <li>Preview</li>
             </Link>
-            <Link to="/aboout" onClick={scrollTop}>
+            <Link to="/about" onClick={scrollTop}>
               <li>About</li>
             </Link>
             <li>
