@@ -1,7 +1,11 @@
 import "./About.css"
 import React from "react"
+import Testimonials from "../../components/testimonials/Testimonials"
 
-const About = ({ aboutWriter: { img, title, subtitle, name, social } }) => {
+const About = ({
+  aboutWriter: { img, title, subtitle, name, social },
+  testi_data,
+}) => {
   return (
     <section className="about container">
       <div className="about-container">
@@ -20,7 +24,7 @@ const About = ({ aboutWriter: { img, title, subtitle, name, social } }) => {
           <p className="about-subtitle">{subtitle}</p>
         </div>
       </div>
-      <Testimonials />
+      <Testimonials testi={testi_data} />
     </section>
   )
 }

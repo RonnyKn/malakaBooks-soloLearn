@@ -17,6 +17,7 @@ import preview6 from "../../assets/preview/image 12preview-isi.png"
 import preview7 from "../../assets/preview/image 13preview-isi.png"
 
 import writerImg from "../../assets/about-1.png"
+import writerImgRound from "../../assets/for2.png"
 
 const techsImg = [
   techsHtml,
@@ -131,5 +132,62 @@ const aboutWriter = {
   name: "Muhamad Nauval Azhar",
   social: "@mhdnauvalazhar",
 }
+const testi_data = {
+  title: "Apa kata orang-orang yang membaca buku ini?",
+  subtitle:
+    "Kalo seandainya kamu belum percaya dengan buku ini maka tidak apa-apa, karena yang patut kamu percayai adalah Tuhan. Tapi, mungkin beberapa ulasan ini bisa membangkitkan hasratmu untuk membeli buku ini.",
+  datas_testi: [
+    {
+      message:
+        "“Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)”",
+      img: writerImgRound,
+      name: "Ahmad Saugi",
+      status: "Mahasiswa",
+    },
+    {
+      message:
+        "“Terimakasih atas bukunya mas. Sangat membantu saya yang masih pemula dalam proses memahami taildwindcss. Isinya cukup lengkap dan detail.”",
+      img: writerImgRound,
+      name: "Dedik Sugiharto",
+      status: "Front-end Engineer",
+    },
+    {
+      message:
+        "“Sebagai pemula yang tidak memiliki latar belakang pemrograman, buku ini sangat cocok untuk dijadikan referensi belajar. Penjelasannya ringkas tapi mudah dipahami.”",
+      img: writerImgRound,
+      name: "Lutfi Hanafiah Ramadhan",
+      status: "Support",
+    },
+    {
+      message:
+        "“Sebagai pemula yang tidak memiliki latar belakang pemrograman, buku ini sangat cocok untuk dijadikan referensi belajar. Penjelasannya ringkas tapi mudah dipahami.”",
+      img: writerImgRound,
+      name: "Lutfi Hanafiah Ramadhan",
+      status: "Support",
+    },
+    {
+      message:
+        "“Sebagai pemula yang tidak memiliki latar belakang pemrograman, buku ini sangat cocok untuk dijadikan referensi belajar. Penjelasannya ringkas tapi mudah dipahami.”",
+      img: writerImgRound,
+      name: "Lutfi Hanafiah Ramadhan",
+      status: "Support",
+    },
+    {
+      message:
+        "“Sebagai pemula yang tidak memiliki latar belakang pemrograman, buku ini sangat cocok untuk dijadikan referensi belajar. Penjelasannya ringkas tapi mudah dipahami.”",
+      img: writerImgRound,
+      name: "Lutfi Hanafiah Ramadhan",
+      status: "Support",
+    },
+  ],
+}
 
-export { techsImg, benefit, book_contain, pratinjau, pricelist, aboutWriter }
+export {
+  techsImg,
+  benefit,
+  book_contain,
+  pratinjau,
+  pricelist,
+  aboutWriter,
+  testi_data,
+}

@@ -13,6 +13,7 @@ import {
   pratinjau,
   pricelist,
   aboutWriter,
+  testi_data,
 } from "./assets/data/Data"
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
           path="/benefits"
           element={<Benefits benefit={benefit} book_contain={book_contain} />}
         />
-        <Route path="/about" element={<About aboutWriter={aboutWriter} />} />
+        <Route
+          path="/about"
+          element={<About aboutWriter={aboutWriter} testi_data={testi_data} />}
+        />
         <Route
           path="/preview"
           element={<Preview pratinjau={pratinjau} pricelist={pricelist} />}
