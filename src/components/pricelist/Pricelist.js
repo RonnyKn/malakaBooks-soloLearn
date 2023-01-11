@@ -5,7 +5,7 @@ const Pricelist = ({ pricelist: { title, subtitle, prices } }) => {
   return (
     <div className="pricelist">
       <div className="container pricelist-container">
-        <p className="sub-title sub-title2">HARGA BUKU</p>
+        <p className="sub-title2 sub-title3">HARGA BUKU</p>
         <h3 className="pricelist-title">{title}</h3>
         <p className="pricelist-subtitle">{subtitle}</p>
         <div className="pricelist-prices">
