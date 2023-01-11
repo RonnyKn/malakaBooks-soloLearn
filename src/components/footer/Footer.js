@@ -24,8 +24,8 @@ const Footer = ({
             <p>{subtitle}</p>
           </div>
           <div className="footer-title-right">
-            <button className="btn">{btn1}</button>
-            <button className="btn">{btn2}</button>
+            <button className="footer-title-btn1">{btn1}</button>
+            <button className="footer-title-btn2">{btn2}</button>
           </div>
         </div>
         <div className="footer-app">
@@ -74,7 +74,7 @@ const Footer = ({
           </div>
         </div>
         <div className="footer-copyright">
-          <h3>{copyright}</h3>
+          <h5>{copyright}</h5>
         </div>
       </div>
     </footer>
