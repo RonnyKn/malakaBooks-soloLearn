@@ -186,6 +186,27 @@ const testi_data = {
   ],
 }
 
+const footer_data = {
+  title: "Sudah siap meningkatkan skill kamu?",
+  subtitle:
+    "Mulai belajar hari ini di Multinity, atau dapatkan jawaban atas pertanyaan kamu di halaman bantuan.",
+  btn1: "Pusat Bantuan",
+  btn2: "Mendaftar",
+  app_title: "The Malaka",
+  app_desc:
+    "Malaka adalah situs penyedia kursus ilmu komputer berbahasa Indonesia, mulai dari pengembangan hingga desain grafis.",
+  products: ["Courses", "Books", "Freebies", "Classes"],
+  company: [
+    "About Us",
+    "Contact",
+    "Privacy Policy",
+    "Terms of Service",
+    "Help",
+  ],
+  get_in_touch: ["Twitter", "Facebook", "Dribbble"],
+  copyright: "COPYRIGHT © 2022 — DESIGN BY NAUVAL",
+}
+
 export {
   techsImg,
   benefit,
@@ -194,4 +215,5 @@ export {
   pricelist,
   aboutWriter,
   testi_data,
+  footer_data,
 }

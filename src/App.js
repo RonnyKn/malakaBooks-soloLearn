@@ -14,6 +14,7 @@ import {
   pricelist,
   aboutWriter,
   testi_data,
+  footer_data,
 } from "./assets/data/Data"
 function App() {
   return (
@@ -35,7 +36,7 @@ function App() {
           element={<Preview pratinjau={pratinjau} pricelist={pricelist} />}
         />
       </Routes>
-      <Footer />
+      <Footer footer_data={footer_data} />
     </BrowserRouter>
   )
 }
