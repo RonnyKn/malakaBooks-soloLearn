@@ -9,6 +9,7 @@ const Navbar = ({ navbar_data: { title_app, navigation } }) => {
 
   const scrollTop = () => {
     window.scroll(0, 0)
+    setIsNavShowing(false)
   }
 
   return (
