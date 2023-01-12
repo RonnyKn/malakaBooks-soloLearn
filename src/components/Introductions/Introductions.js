@@ -1,4 +1,3 @@
-import "./Introductions.css"
 import React from "react"
 
 const Introductions = ({
