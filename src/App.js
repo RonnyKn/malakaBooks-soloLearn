@@ -8,6 +8,7 @@ import Benefits from "./pages/benefits/Benefits"
 import ForEveryone from "./pages/forEveryone/ForEveryone"
 import Preview from "./pages/preview/Preview"
 import {
+  navbar_data,
   header_data,
   benefit,
   book_contain,
@@ -20,7 +21,7 @@ import {
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar navbar_data={navbar_data} />
       <Header header_data={header_data} />
       <Routes>
         <Route exact path="/" element={<ForEveryone />} />

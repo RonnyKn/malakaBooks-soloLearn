@@ -19,6 +19,28 @@ import preview7 from "../../assets/preview/image 13preview-isi.png"
 import writerImg from "../../assets/about-1.png"
 import writerImgRound from "../../assets/for2.png"
 
+const navbar_data = {
+  title_app: "Malaka Books",
+  navigation: [
+    {
+      text: "For Everyone",
+      to: "/",
+    },
+    {
+      text: "Benefit",
+      to: "/benefits",
+    },
+    {
+      text: "Preview",
+      to: "/preview",
+    },
+    {
+      text: "About",
+      to: "/about",
+    },
+  ],
+}
+// ==========HEADER===========
 const header_data = {
   title:
     "Sebuah framework CSS untuk developer yang memiliki phobia terhadap CSS",
@@ -35,7 +57,7 @@ const header_data = {
     techs7,
   ],
 }
-
+// ==========BENEFITS===========
 const benefit = {
   title: "Manfaat yang kamu dapatkan ketika membeli buku Tailwind CSS ini",
   quote:
@@ -215,6 +237,7 @@ const footer_data = {
 }
 
 export {
+  navbar_data,
   header_data,
   benefit,
   book_contain,

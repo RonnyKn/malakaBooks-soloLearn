@@ -4,7 +4,7 @@ import { GoThreeBars } from "react-icons/go"
 import { MdOutlineClose } from "react-icons/md"
 import { Link } from "react-router-dom"
 
-const Navbar = () => {
+const Navbar = ({ navbar_data: { title_app, navigation } }) => {
   const [isNavShowing, setIsNavShowing] = useState(false)
 
   const scrollTop = () => {
@@ -14,26 +14,19 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container nav-container">
-        <div className="nav-logo">
+        <div className="nav-logo" onClick={scrollTop}>
           <span>M</span>
-          <h3>Malaka Books</h3>
+          <h3>{title_app}</h3>
         </div>
         <div className={`nav-menus ${isNavShowing ? "nav-show" : "nav-hide"}`}>
           <ul>
-            <Link to="/" onClick={scrollTop}>
-              <li> For Everyone </li>
-            </Link>
-            <Link to="/benefits" onClick={scrollTop}>
-              <li>Benefit</li>
-            </Link>
-            <Link to="/preview" onClick={scrollTop}>
-              <li>Preview</li>
-            </Link>
-            <Link to="/about" onClick={scrollTop}>
-              <li>About</li>
-            </Link>
+            {navigation?.map((val, idx) => (
+              <Link to={val?.to} onClick={scrollTop} key={idx}>
+                <li> {val?.text} </li>
+              </Link>
+            ))}
             <li>
-              <button type="button" className="btn">
+              <button type="button" className="btn nav-btn">
                 Download
               </button>
             </li>

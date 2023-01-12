@@ -65,6 +65,12 @@ img {
   cursor: pointer;
 }
 
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-dark);
+  transition: var(--transition);
+}
+
 /* =========MEDIA QUERIES======= */
 @media screen and (max-width:990px) {
   .container {

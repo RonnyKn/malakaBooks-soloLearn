@@ -22,6 +22,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  cursor: pointer;
 }
 
 .nav-logo span {
@@ -54,6 +55,11 @@ nav {
 .nav-navigation {
   position: relative;
   display: none;
+  color: var(--color-white);
+}
+
+.nav-btn {
+  background: var(--color-primary);
   color: var(--color-white);
 }
 
