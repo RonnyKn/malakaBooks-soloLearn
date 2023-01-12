@@ -67,3 +67,27 @@
   text-align: center;
   color: var(--text-gray);
 }
+
+@media screen and (max-width:600px) {
+  .footer-title {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-app {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-app-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-app-right {
+    text-align: center;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
