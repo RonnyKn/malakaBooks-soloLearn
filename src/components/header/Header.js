@@ -1,26 +1,17 @@
 import "./Header.css"
 import React from "react"
-import { BsArrowRightCircle, BsDownload } from "react-icons/bs"
-import { techsImg } from "../../assets/data/Data"
 import bookCover from "../../assets/book.png"
 import Buynow from "../buynow/Buynow"
 
-const Header = () => {
+const Header = ({ header_data: { title, subtitle, techs, techsImg } }) => {
   return (
     <section className="header">
       <div className="container header-container">
         <div className="header-left">
-          <h1>
-            Sebuah framework CSS untuk developer yang memiliki phobia terhadap
-            CSS
-          </h1>
-          <p>
-            Buku ini akan mengajarkan kamu konsep utility-first pada CSS dan
-            diakhiri dengan membangun sebuah website yang responsive dengan
-            Tailwind CSS.
-          </p>
+          <h1>{title}</h1>
+          <p>{subtitle}</p>
           <Buynow />
-          <span className="header-techs">TEKNOLOGI YANG DIGUNAKAN</span>
+          <span className="header-techs">{techs}</span>
           <div className="header-svg">
             {techsImg?.map((tech, idx) => (
               <img key={idx} src={tech} alt={`techs${idx}`} />

@@ -19,15 +19,22 @@ import preview7 from "../../assets/preview/image 13preview-isi.png"
 import writerImg from "../../assets/about-1.png"
 import writerImgRound from "../../assets/for2.png"
 
-const techsImg = [
-  techsHtml,
-  techsCss,
-  techsChrome,
-  techsSublime,
-  techsNodejs,
-  techsNpm,
-  techs7,
-]
+const header_data = {
+  title:
+    "Sebuah framework CSS untuk developer yang memiliki phobia terhadap CSS",
+  subtitle:
+    "Buku ini akan mengajarkan kamu konsep utility-first pada CSS dan diakhiri dengan membangun sebuah website yang responsive dengan Tailwind CSS.",
+  techs: "TEKNOLOGI YANG DIGUNAKAN",
+  techsImg: [
+    techsHtml,
+    techsCss,
+    techsChrome,
+    techsSublime,
+    techsNodejs,
+    techsNpm,
+    techs7,
+  ],
+}
 
 const benefit = {
   title: "Manfaat yang kamu dapatkan ketika membeli buku Tailwind CSS ini",
@@ -208,7 +215,7 @@ const footer_data = {
 }
 
 export {
-  techsImg,
+  header_data,
   benefit,
   book_contain,
   pratinjau,

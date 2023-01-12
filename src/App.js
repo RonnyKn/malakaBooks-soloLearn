@@ -8,6 +8,7 @@ import Benefits from "./pages/benefits/Benefits"
 import ForEveryone from "./pages/forEveryone/ForEveryone"
 import Preview from "./pages/preview/Preview"
 import {
+  header_data,
   benefit,
   book_contain,
   pratinjau,
@@ -20,7 +21,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Header />
+      <Header header_data={header_data} />
       <Routes>
         <Route exact path="/" element={<ForEveryone />} />
         <Route
