@@ -10,6 +10,7 @@ import Preview from "./pages/preview/Preview"
 import {
   navbar_data,
   header_data,
+  home_data,
   benefit,
   book_contain,
   pratinjau,
@@ -24,7 +25,7 @@ function App() {
       <Navbar navbar_data={navbar_data} />
       <Header header_data={header_data} />
       <Routes>
-        <Route exact path="/" element={<ForEveryone />} />
+        <Route exact path="/" element={<ForEveryone home_data={home_data} />} />
         <Route
           path="/benefits"
           element={<Benefits benefit={benefit} book_contain={book_contain} />}

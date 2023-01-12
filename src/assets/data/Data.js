@@ -15,10 +15,10 @@ import preview4 from "../../assets/preview/image 10preview-isi.png"
 import preview5 from "../../assets/preview/image 11preview-isi.png"
 import preview6 from "../../assets/preview/image 12preview-isi.png"
 import preview7 from "../../assets/preview/image 13preview-isi.png"
-
+import introductionImg from "../../assets/for2.png"
 import writerImg from "../../assets/about-1.png"
 import writerImgRound from "../../assets/for2.png"
-
+import forImg1 from "../../assets/for1.png"
 const navbar_data = {
   title_app: "Malaka Books",
   navigation: [
@@ -56,6 +56,36 @@ const header_data = {
     techsNpm,
     techs7,
   ],
+}
+// ==========FOR EVERYONE===========
+const home_data = {
+  title:
+    "Buku yang cocok dibaca untuk front-end dan back-end, bahkan UI designer!",
+  subtitle:
+    "Buku ini bukan hanya untuk front-end developer yang ingin meningkatkan skill, buku ini juga cocok untuk back-end developer dan UI designer agar dapat menulis style tanpa harus menulis kode CSS dan tanpa mengandalkan front-end developer!",
+  img: forImg1,
+  body: [
+    {
+      desc_title: "Utility-First Framework",
+      desc: "Tailwind hadir dengan konsep utility-first. Utility-first artinya banyak class-class kecil yang bisa digabung untuk menjadi sebuah UI.",
+    },
+    {
+      desc_title: "Tailwind JIT Engine",
+      desc: "JIT engine akan men-generate utility-class yang kita gunakan saja.Ini akan membuat pengalaman pengembangan semakin baik.",
+    },
+    {
+      desc_title: "Unopinionated-Framework",
+      desc: " Tailwind tidak memiliki pra-desain komponen apapun, ini membuat desain website yang kita buat menjadi unik.",
+    },
+  ],
+  introduction: {
+    title: "Kata Pengantar Dari Penulis Buku",
+    img: introductionImg,
+    writer_name: "Muhamad Nauval Azhar",
+    writer_social: "mhdnauvalazhar",
+    words:
+      '"Tailwind sangat memungkinkan kamu untuk membangun sebuah desain website yang unik dan tanpa kamu perlu menulis kode CSS sedikitpun.Mungkin kamu akan berpikir bahwa kamu akan membutuhkan waktu yanglebih lama ketika membangun sebuah website dengan utility-first framework ketimbang dengan framework UIkit. Ya, benar. Karena kamu mengimplementasikan desain tersebut dari awal sendiri. Namun, kamu perlu ingat manfaat-manfaat yang diberikan oleh utility-first framework, sehingga kamu dapat mempertimbangkannya. Dalam buku ini, kita akan mempelajari framework Tailwind CSS. Mulai dari konsep, workflow, hingga membuat sebuah website responsive dengan TailwindCSS. Buku ini tidak untuk semua orang, setidaknya kamu memahami cara mengoperasikan komputer,memahami HTML, memahami CSS, atau bisa dibilang kamu sudah pernah membangun website sebelumnya dan ingin mempelajari hal baru untuk meningkatkan skill."',
+  },
 }
 // ==========BENEFITS===========
 const benefit = {
@@ -239,6 +269,7 @@ const footer_data = {
 export {
   navbar_data,
   header_data,
+  home_data,
   benefit,
   book_contain,
   pratinjau,
