@@ -14,10 +14,12 @@
   font-weight: 500;
   font-size: 3rem;
   line-height: 1.2;
+  margin-bottom: 1rem;
 }
 
 .header-left p {
   color: var(--text-gray);
+
 }
 
 .header-techs {
@@ -33,4 +35,46 @@
 }
 
 /* ============MEDIA QUERIES========== */
-@media screen and (max-width:990px) {}
+@media screen and (max-width:990px) {
+  .header-container {
+    gap: 0;
+  }
+
+  .header-left h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .header {
+    line-height: 1.5;
+    padding: 2rem 0 0;
+  }
+
+  .header-left h1 {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .header {
+    height: 100vh;
+    padding: 0;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-right img {
+    width: 70%;
+  }
+}
