@@ -86,3 +86,28 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width:600px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .testimonials-title {
+    padding-top: 2rem;
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-title {
+    place-items: unset;
+  }
+
+  .testi-data {
+    color: var(--color-white);
+  }
+
+  .testi-name {
+    color: var(--color-dark)
+  }
+
+}
