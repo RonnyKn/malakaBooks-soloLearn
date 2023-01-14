@@ -121,4 +121,25 @@ nav {
     top: 90%;
     left: 40%;
   }
+
+  .nav-menus ul {
+    perspective: 400;
+  }
+
+  .nav-menus li {
+    perspective: 400;
+    box-shadow: var(--box-shadow);
+    transform: rotateX(-90deg);
+    opacity: 0;
+    transform-origin: top;
+    animation: animateNavbar 600ms ease forwards;
+  }
+
+  @keyframes animateNavbar {
+    100% {
+      transform: rotateX(0deg);
+      opacity: 1;
+      transition: var(--transition);
+    }
+  }
 }
