@@ -90,3 +90,30 @@
   border: 1px solid var(--color-white);
   border-radius: .5rem;
 }
+
+/* =========MEDIA QUERIES====== */
+@media screen and (max-width:768px) {
+  .prices {
+    padding: 1rem;
+    border-radius: .5rem;
+  }
+
+  .prices-bookcontain {
+    gap: .5rem;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .prices {
+    padding: 3rem;
+    border-radius: 1rem;
+  }
+
+  .prices-bookcontain {
+    gap: 1rem;
+  }
+
+  .pricelist-prices {
+    grid-template-columns: 1fr;
+  }
+}
