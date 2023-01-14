@@ -1,3 +1,7 @@
+.benefits {
+  padding-bottom: 1rem;
+}
+
 .benefits-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -71,4 +75,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width:990px) {}
+
+@media screen and (max-width:768px) {
+  .benefits-container {
+    grid-template-columns: 1fr;
+  }
 }
