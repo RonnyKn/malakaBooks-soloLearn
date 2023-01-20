@@ -12,7 +12,6 @@ const Navbar = ({ navbar_data: { title_app, navigation } }) => {
     window.scroll(0, 0)
     setIsNavShowing(false)
   }
-  console.log(isActive)
   return (
     <nav>
       <div className="container nav-container">

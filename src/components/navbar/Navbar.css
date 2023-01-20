@@ -145,6 +145,12 @@ nav {
     animation: animateNavbar 600ms ease forwards;
   }
 
+  .nav-active {
+    background: var(--color-primary);
+    border-radius: .5rem;
+    padding: 0 .5rem;
+  }
+
   @keyframes animateNavbar {
     100% {
       transform: rotateX(0deg);
