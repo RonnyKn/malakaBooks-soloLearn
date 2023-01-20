@@ -17,6 +17,16 @@ nav {
   align-items: center;
 }
 
+.nav-active {
+  background: var(--color-primary);
+  border-radius: .5rem;
+  padding: 0 .5rem;
+}
+
+.nav-active:hover {
+  color: var(--color-white) !important;
+}
+
 .nav-logo {
   display: flex;
   justify-content: space-between;
